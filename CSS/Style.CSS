@@ -112,8 +112,12 @@ font-size: 15px;
 .navbar-light .navbar-nav .nav-link:hover {
     color: #D10024;
 }
-.collections{
-    width: inherit;
+.zoom {
+    width: 95%;
+ transition: transform .2s;
+}
+.zoom:hover {
+  transform: scale(1.1); 
 }
 @media (max-width:993px) {
     .logo{
