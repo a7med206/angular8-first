@@ -142,6 +142,36 @@ font-size: 15px;
     width: 110%;
 
 }
+.shape p {
+    color: white;
+    margin-top: 20px;
+    font-size: 2vw;
+    margin-left: 6%;
+}
+.shape a {
+    color: white;
+    margin-left: 6%;
+        font-size: 1.16vw;
+
+    text-decoration: underline;
+    
+}
+.products p{
+    font-size: 2vw;
+    font-weight: 500;
+    
+}
+.thirdnav {
+    display: flex;
+    flex-direction: row;
+}
+.thirdnav ul{
+    flex-direction: row;
+}
+.thirdnav ul li {
+    display: block;
+    font-size: 1.1vw;
+}
 @media (max-width:993px) {
     .logo{
         margin-left: auto;
@@ -170,5 +200,14 @@ font-size: 15px;
     .shape{
         padding-bottom: 44%;
 
+    }
+    .center{
+   position: relative;
+  left: 5%;
+
+    }
+    .right{
+  position: relative;
+  left: 5%;
     }
 }
