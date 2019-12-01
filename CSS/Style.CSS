@@ -336,6 +336,64 @@ font-size: 15px;
     margin-top: -20%;
     bottom: -59px
 }
+.top{
+    min-width:320px ;
+}
+.signup{
+    font-size: 1.5vw;
+}
+.signup span{
+    font-weight: 700;
+    font-size: 1.6vw;
+}
+.lastform{
+    border: 1px solid #e3e1e1;
+       border-radius: 44px 0 0 44px;
+    margin-left: -23%;
+}
+.last-form{
+margin-top: 0%;
+}
+.last{
+    overflow-x: hidden;
+    border-bottom: 5px solid #D10024;
+}
+.Social-media{
+    padding: 15px;
+    margin: 10px;
+    color: black;
+    transition:color 0.3s;
+}
+.Social-media:hover{
+    background-color: #b0b0b0;
+    color: #D10024;
+}
+footer{
+    overflow-x: hidden;
+    background-color: black;
+    color: grey;
+    padding-top: 5%;
+    font-size: 1.4vw;
+}
+.footer-header{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+.lorem{
+    font-size: 16px;
+}
+.footerlink{
+ color: #7e7e7e;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footerlink:hover{
+    color:  #D10024;
+}
+.footercol{
+    min-width: 285px;
+}
 @media (max-width:993px) {
     .logo{
         margin-left: auto;
