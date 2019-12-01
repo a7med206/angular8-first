@@ -131,6 +131,9 @@ font-size: 15px;
  transform: scale(1.2);
     
 }
+.col-min{
+    min-width: 250px;
+}
 .shape{
     position: absolute;
     top: -12px;
@@ -157,7 +160,7 @@ font-size: 15px;
     
 }
 .products p{
-    font-size: 2vw;
+    font-size: 20px;
     font-weight: 500;
     
 }
@@ -170,7 +173,7 @@ font-size: 15px;
 }
 .thirdnav ul li {
     display: block;
-    font-size: 1.1vw;
+    font-size: 14px;
 }
 .card{
         align-items: center;
@@ -305,14 +308,14 @@ font-size: 15px;
     position: relative;
     top: -52px;
     left: 80px;
-    font-size: 1.1vw;
+    font-size: 15px;
     color: #b0b0b0;
 }
 .slider-link{
     position: relative;
     left: 72px;
     top: -67px;
-    font-size: 1.3vw;
+    font-size: 20px;
     color: black;
 }
 .slider-link:hover{
@@ -323,18 +326,20 @@ font-size: 15px;
     position: relative;
     top: -65px;
     left: 89px;
-    font-size: 1.2vw;
+    font-size: 15px;
     color: #D10024;
     font-weight: 600;
 }
 .price span{
-    font-size: 0.8vw;
+    font-size: 10px;
     color: #b0b0b0;
 }
 .products-1{
     position: relative;
     margin-top: -20%;
-    bottom: -59px
+    bottom: -59px;
+    min-width: 250px;
+        
 }
 .top{
     min-width:320px ;
