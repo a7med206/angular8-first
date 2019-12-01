@@ -172,6 +172,125 @@ font-size: 15px;
     display: block;
     font-size: 1.1vw;
 }
+.card{
+        align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+
+}
+.card:hover,.card:active {
+    border: 2px red solid;
+}
+.card-img-top{
+ margin-top: 25px;   
+}
+.card .card-title{
+    color: #c6c6c6;
+    font-weight: 300; 
+}
+.text-muted {
+    color: #ff4108 !important;
+    font-size: larger;
+    font-weight: 700;
+}
+.card p span{
+    text-decoration: line-through;
+    color:  #c6c6c6;
+    font-size: 1vw;
+    font-weight: 300;
+}
+.star{
+    color: red;
+    position: relative;
+    top:87%;
+}
+.star::before {
+    content: "";
+    width: 5vw;
+    background-color: #ebebeb;
+    display: block;
+    height: 0.2vh;
+    position: relative;
+    left: -10%;
+    top: 15px;
+}
+.star::after {
+    content: "";
+    width: 5vw;
+    background-color: #ebebeb;
+    /* color: #8f8f8f; */
+    display: block;
+    height: 0.2vh;
+    position: relative;
+    left: 73%;
+    top: -10px;
+}
+.card a{
+    color: black;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+.addcart{
+ background-color: black;
+    width: 100%;
+    position: relative;
+    bottom: 67px;
+    overflow-y: visible;
+    transition:all 0.5s ease-in-out ;
+    transform: translateY(0%);
+     z-index: 1;
+    padding-top: 7px;
+    padding-bottom: 5px;
+
+}
+.col-3:hover .addcart{
+      transform: translateY(100%);
+    
+
+}
+.col-3:hover .addcart button{
+    display: block;
+}
+.addcart button{
+    background-color: red;
+    position: relative;
+    left: 16%;
+    top:3px;
+    width: 68%;
+    border-radius: 50px;
+    border: 2px red solid;
+    display: none;
+    transition:all 0.5s ease;
+
+}
+.addcart button:hover{
+    background-color:azure;  
+    width: 80%;
+    position: relative;
+    left: 11%;
+    color: #D10024;
+    border: 5px #D10024 solid;
+}
+.icons{
+    border-radius: 100%;
+    padding: 8px;
+}
+.icons:hover{
+    background-color: #e7e7e7;
+}
+.bgco{
+    margin-top: 60px !important;
+    background-image: url(../Images/bgco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 60px;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    z-index: -4;
+
+}
 @media (max-width:993px) {
     .logo{
         margin-left: auto;
