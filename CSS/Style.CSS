@@ -21,6 +21,7 @@
     margin-right: auto;
     margin-left: auto;
     border-bottom: 6px solid #D10024;
+    overflow-x: hidden;
 }
 .logo{
     color: white;
@@ -61,7 +62,6 @@ form button{
     margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
-    box-sizing: border-box;
 }
 .Cart a i {
     position: relative;
