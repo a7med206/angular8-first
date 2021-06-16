@@ -14,16 +14,16 @@ import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
-  {path:'' , component:HomeComponent},
-  {path:'Specials' , component:SpecialsComponent },
-  {path: 'Contact', component:ContactComponent},
-  {path:'sitemap',component:SiteMapComponent},
-  {path:'myProducts',component:MyProductsComponent},
-  {path:'Returns', component:ReturnsComponent ,   canActivate: [AuthGuard] }, 
-  {path:'specialOffers',component:SpecialOffersComponent},
-  {path:'signingForm',component:SigningFormComponent },
-  {path:'newProduct',component:NewProductComponent},
-  {path:'home',component:HomeComponent}
+  { path: '', component: HomeComponent },
+  { path: 'Specials', component: SpecialsComponent },
+  { path: 'Contact', component: ContactComponent },
+  { path: 'sitemap', component: SiteMapComponent },
+  { path: 'myProducts', component: MyProductsComponent },
+  { path: 'Returns', component: ReturnsComponent, canActivate: [AuthGuard] },
+  { path: 'specialOffers', component: SpecialOffersComponent },
+  { path: 'signingForm', component: SigningFormComponent },
+  { path: 'newProduct', component: NewProductComponent },
+  { path: 'home', component: HomeComponent }
 
 ];
 

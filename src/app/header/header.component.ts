@@ -9,32 +9,32 @@ import { isObject } from 'util';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent implements OnInit,OnDestroy {
-private userSub: Subscription;
-isAuthenticated = false;
+export class HeaderComponent implements OnInit, OnDestroy {
+  private userSub: Subscription;
+  isAuthenticated = false;
   constructor(private authService: AuthService,
-   private router: Router) { }
+    private router: Router) { }
 
   ngOnInit() {
-    this.userSub= this.authService.user.subscribe(
+    this.userSub = this.authService.user.subscribe(
       user => {
-this.isAuthenticated= !user ? false : true;
+        this.isAuthenticated = !user ? false : true;
       }
     );
   }
-  onLogOut(){
+  onLogOut() {
     this.authService.logOut();
   }
-  Logging(){
-    if( !this.isAuthenticated ){
+  Logging() {
+    if (!this.isAuthenticated) {
       this.router.navigate(['signingForm'])
     } else {
       this.router.navigate(['Contact']);
 
     }
   }
- 
-  ngOnDestroy(){
+
+  ngOnDestroy() {
     this.userSub.unsubscribe();
   }
 

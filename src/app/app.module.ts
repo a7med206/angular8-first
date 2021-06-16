@@ -12,7 +12,7 @@ import { ReturnsComponent } from './returns/returns.component';
 import { SpecialOffersComponent } from './special-offers/special-offers.component';
 import { MyProductsComponent } from './myProducts/myProducts.component';
 import { SigningFormComponent } from './signing-form/signing-form.component';
-import {  HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { AuthService } from './signing-form/Auth.service';
 import { NewProductComponent } from './new-product/new-product.component';
 import { HomeComponent } from './home/home.component';

@@ -25,7 +25,8 @@ body {
   background-color: black;
   margin: 6px 0;
 }
-.main_row{
+
+.main_row {
   max-width: 95%;
 }
 
@@ -33,9 +34,11 @@ body {
   background-color: black !important;
   padding: 0 !important;
 }
+
 .thirdNav {
   width: 100vw;
 }
+
 .thirdNav nav div ul li {
   margin-left: auto;
 }
@@ -236,20 +239,20 @@ body {
   }
 }
 
-    @media(max-width:770px) {
-      #navbarNavDropdown .mainNav {
-        margin-left: auto;
-        margin-right: auto;
-      }
+@media(max-width:770px) {
+  #navbarNavDropdown .mainNav {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-      .thirdNav nav div ul li {
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
+  .thirdNav nav div ul li {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
-    @media(max-width:575px) {
-      .colAds {
-        display: none;
-      }
-    }
+@media(max-width:575px) {
+  .colAds {
+    display: none;
+  }
+}
