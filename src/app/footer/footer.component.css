@@ -56,11 +56,7 @@
       text-decoration: none;
   }
   b i{
-<<<<<<< Updated upstream:app/footer/footer.component.css
-visibility: hidden; 
-=======
 visibility: hidden;
->>>>>>> Stashed changes:src/app/footer/footer.component.css
  }
  footer .row:nth-child(2){
   margin-left: 3rem;
@@ -191,8 +187,4 @@ visibility: visible;
   margin-left: -2rem;
 
 }
-<<<<<<< Updated upstream:app/footer/footer.component.css
 }
-=======
-}
->>>>>>> Stashed changes:src/app/footer/footer.component.css
